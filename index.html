@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Castle Crush NFT</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>CASTLE CRUSH NFT</header>
+
+<div id="items" class="grid"></div>
+
+<div id="qrModal" class="modal">
+  <div class="modal-box">
+    <p>Scan QR & Pay</p>
+    <img id="qrImg" src="images/qr.png">
+    <button onclick="downloadQR()">Download QR</button>
+    <button onclick="sendProof()">Payment Proof</button>
+    <button class="red" onclick="closeQR()">Close</button>
+  </div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
