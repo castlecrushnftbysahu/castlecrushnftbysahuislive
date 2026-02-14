@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="admin-box">
+<h2>ADMIN PANEL</h2>
+
+<label>WhatsApp Number</label>
+<input id="waInput">
+<button onclick="saveWA()">Save WhatsApp</button>
+
+<hr>
+
+<h3>Add New Card</h3>
+
+<input id="newName" placeholder="Card Name">
+<input id="newPrice" type="number" placeholder="Price">
+<input id="newImg" placeholder="Image File Name (example.png)">
+<button onclick="addNewCard()">Add Card</button>
+
+<hr>
+
+<h3>Edit Cards</h3>
+<div id="adminItems"></div>
+
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
